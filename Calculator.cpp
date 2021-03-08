@@ -111,7 +111,7 @@ int main(){
 		    cin >> a;
 		    cout << "Second Number: ";
 		    cin >> b;
-            cout << "RESULT: " << a << " + " << b << " = " << add(a,b) << endl;        // Memanggil fungsi add
+            cout << "RESULT: " << a << " + " << b << " = " << add(a,b) << endl;               // Memanggil fungsi add
 	    }
         // Untuk operator pengurangan
 	    else if (op == "sub" || op == "Sub"){
@@ -119,7 +119,7 @@ int main(){
 		    cin >> a;
 		    cout << "Second Number: ";
 		    cin >> b;
-            cout << "RESULT: " << a << " - " << b << " = " << sub(a,b) << endl;        // Memanggil fungsi sub
+            cout << "RESULT: " << a << " - " << b << " = " << sub(a,b) << endl;               // Memanggil fungsi sub
 	    }
         // Untuk operator perkalian
 	    else if (op == "mul" || op == "Mul"){
@@ -127,7 +127,7 @@ int main(){
 		    cin >> a;
 		    cout << "Second Number: ";
 		    cin >> b;
-            cout << "RESULT: " << a << " x " << b << " = " << mul(a,b) << endl;        // Memanggil fungsi mul
+            cout << "RESULT: " << a << " x " << b << " = " << mul(a,b) << endl;               // Memanggil fungsi mul
 	    }
         // Untuk operator pembagian
 	    else if (op == "div" || op == "Div"){
@@ -135,7 +135,7 @@ int main(){
 		    cin >> a;
 		    cout << "Second Number: ";
 		    cin >> b;
-            cout << "RESULT: " << a << " : " << b << " = " << div(a,b) << endl;        // Memanggil fungsi div
+            cout << "RESULT: " << a << " : " << b << " = " << div(a,b) << endl;               // Memanggil fungsi div
 	    }
         // Untuk operator yang tak terdefinisi
 	    else{
